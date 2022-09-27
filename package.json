@@ -1,6 +1,6 @@
 {
 	"name": "d",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Property descriptor factory",
 	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
 	"keywords": [
@@ -18,7 +18,7 @@
 		"url": "git://github.com/medikoo/d.git"
 	},
 	"dependencies": {
-		"es5-ext": "^0.10.50",
+		"es5-ext": "github:sevenbitbyte/es5-ext#hash-patch",
 		"type": "^1.0.1"
 	},
 	"devDependencies": {

@@ -4,7 +4,7 @@ var isPlainFunction = require("type/plain-function/is")
   , ensureValue     = require("type/value/ensure")
   , isValue         = require("type/value/is")
   , map             = require("es5-ext/object/map")
-  , contains        = require("es5-ext/string/#/contains");
+  , contains        = require("es5-ext/string/_hash_/contains");
 
 var call = Function.prototype.call
   , defineProperty = Object.defineProperty

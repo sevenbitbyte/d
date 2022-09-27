@@ -4,7 +4,7 @@ var isValue         = require("type/value/is")
   , isPlainFunction = require("type/plain-function/is")
   , assign          = require("es5-ext/object/assign")
   , normalizeOpts   = require("es5-ext/object/normalize-options")
-  , contains        = require("es5-ext/string/#/contains");
+  , contains        = require("es5-ext/string/_hash_/contains");
 
 var d = (module.exports = function (dscr, value/*, options*/) {
 	var c, e, w, options, desc;
