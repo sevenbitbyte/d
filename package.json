@@ -18,7 +18,7 @@
 		"url": "git://github.com/medikoo/d.git"
 	},
 	"dependencies": {
-		"es5-ext": "github:sevenbitbyte/es5-ext#hash-patch",
+		"es5-ext": "https://github.com/sevenbitbyte/es5-ext#hash-patch",
 		"type": "^1.0.1"
 	},
 	"devDependencies": {
